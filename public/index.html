@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FM - Product Preview Card</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main class="flex h-screen items-center justify-center bg-orange-50">
+      <div
+        class="mx-4 flex max-w-sm flex-col rounded-xl bg-white font-montserrat text-sm font-medium text-gray-500 md:max-w-xl md:flex-row"
+      >
+        <img
+          src="images/image-product-desktop.jpg"
+          alt="bottle of perfume on white background"
+          class="mb-6 min-h-0 min-w-0 basis-60 rounded-t-xl object-cover md:mb-0 md:basis-6/12 md:rounded-l-xl md:rounded-tr-none"
+        />
+        <div class="mx-6 md:mx-8 md:mt-8 md:w-56">
+          <p class="mb-2 uppercase tracking-[.3em] md:mb-4">Perfume</p>
+          <h1
+            class="mb-4 font-fraunces text-3xl font-bold leading-8 text-black md:mb-5"
+          >
+            Gabrielle Essence Eau De Parfum
+          </h1>
+          <p class="mb-5 leading-6">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of
+            <span class="uppercase">Chanel</span>.
+          </p>
+          <div class="mb-4 flex items-center space-x-5 md:mb-6">
+            <span class="font-fraunces text-3xl font-bold text-emerald-600"
+              >$149.99</span
+            >
+            <span class="line-through">$169.99</span>
+          </div>
+          <button
+            class="mb-6 flex w-full items-center justify-center space-x-2 rounded-lg bg-emerald-600 py-4 font-bold text-white hover:bg-emerald-900 md:mb-8"
+          >
+            <img src="images/icon-cart.svg" alt="cart icon" />
+            <span>Add to Cart</span>
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
